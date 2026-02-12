@@ -4,10 +4,13 @@ public class main {
         int add = 1349; // сумма пополнений
         int summ = start + add; //сумма без бонусов на счету
         int bonus = summ/100; // сумма бонусов
+
+        if (summ > 1000) {
+           bonus = summ/100;
+            
         int total = start + add + bonus; // итоговый счет
 
-       if (summ > 1000) {
-           bonus = summ/100;
+       
 
                     System.out.println(total);
 
