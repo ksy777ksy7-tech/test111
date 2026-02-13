@@ -1,8 +1,9 @@
 public class main {
     public static void main(String[] args) {
-        int start = 1; // начальный баланс
+        int start = 1000; // начальный баланс
         int add = 134; // сумма пополнений
         int summ = start + add; //сумма без бонусов на счету
+
         int bonus = 0; // сумма бонусов при сумме < 1000
 
         if (summ > 1000) {
